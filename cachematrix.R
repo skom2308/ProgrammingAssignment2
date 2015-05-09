@@ -1,7 +1,11 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## The first function, makeCacheMatrix creates a special "marix", which is really a list containing a function
+## Sample usage:
+## x <- matrix(c(1,3,2,4,3,2,5,4,8),3,3)
+## x1<-makeCacheMatrix(x)
+
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -19,7 +23,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## The following function calculates the mean of the special "matrix" created with the above function
+## Sample Usage:
+## cacheSolve(x1)
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
