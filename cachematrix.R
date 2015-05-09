@@ -1,7 +1,11 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## The first function, makeCacheMatrix creates a special "marix", which is really a list containing a function
+## The first function, makeCacheMatrix creates a special "marix", which is really a list containing a function to:
+## 1. set the value of the matrix
+## 2. get the value of the matrix
+## 3. set the value of the inverse matrix
+## 4. get the value of the inverse matrix
 ## Sample usage:
 ## x <- matrix(c(1,3,2,4,3,2,5,4,8),3,3)
 ## x1<-makeCacheMatrix(x)
